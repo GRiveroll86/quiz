@@ -8,7 +8,7 @@ highscoresHeaderEl.innerText = "You scored: " + localStorage.getItem("score");
 
 function playAgain (){
     localStorage.setItem("score", 0)
-    window.location.href = "https://griveroll86.github.io/quiz/index.html";
+    window.location.href = "index.html";
 }
 
 function saveUsername (){
