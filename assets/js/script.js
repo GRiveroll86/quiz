@@ -131,13 +131,13 @@ function checkAnswer(){
 
 function checkEndGame(){
     if (currentQuestion >= 5){
-        window.location.replace("https://griveroll86.github.io/quiz/highscores.html")
+        window.location.href = "https://griveroll86.github.io/quiz/highscores.html";
     } 
 }
 
 function gameOver() {
     alert("You ran out of time.")
-    window.location.replace("https://griveroll86.github.io/quiz/highscores.html")
+    window.location.href = "https://griveroll86.github.io/quiz/highscores.html";
 }
 
 document.getElementById("startBtn").addEventListener("click", startGame);
